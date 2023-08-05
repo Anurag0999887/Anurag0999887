@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+header {
+    /* Apply your styles for the centered title with background color and padding */
+}
+
+nav {
+    /* Apply your styles for the horizontally aligned menu items with equal spacing */
+    display: flex;
+    justify-content: space-around;
+}
+
+main {
+    /* Apply your styles for the product cards in a row using Flexbox */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+main .product-card {
+    /* Apply styles for each product card (image, title, description) */
+    width: 30%; /* Adjust the width to fit three cards in a row */
+}
+
+aside {
+    /* Apply your styles for the vertically aligned sidebar with related links */
+    align-self: flex-start; /* To position the sidebar to the left */
+}
+
+footer {
+    /* Apply your styles for the centered copyright text with background color */
+    text-align: center;
+}
